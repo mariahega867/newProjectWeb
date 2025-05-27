@@ -2,7 +2,7 @@
   for = "/*"
   [headers.values]
     # Prevent XSS attacks and other injections
-    Content-Security-Policy = "default-src 'self' https://kynos-ai-consultant.zapier.app https://interfaces.zapier.com https://imagedelivery.net; script-src 'self' https://interfaces.zapier.com 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' https://imagedelivery.net data: https:; font-src 'self' data:; connect-src 'self' https://kynos-ai-consultant.zapier.app https://interfaces.zapier.com; frame-src https://kynos-ai-consultant.zapier.app https://interfaces.zapier.com; upgrade-insecure-requests;"
+    Content-Security-Policy = "default-src 'self' https://kynos-ai-consultant.zapier.app https://interfaces.zapier.com https://imagedelivery.net; script-src 'self' https://interfaces.zapier.com 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' https://imagedelivery.net data: https:; font-src 'self' data:; connect-src 'self' https://kynos-ai-consultant.zapier.app https://interfaces.zapier.com https://api.allorigins.win; frame-src https://kynos-ai-consultant.zapier.app https://interfaces.zapier.com; upgrade-insecure-requests;"
     
     # Prevent clickjacking attacks
     X-Frame-Options = "SAMEORIGIN"
