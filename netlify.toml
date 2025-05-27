@@ -1,0 +1,34 @@
+[[headers]]
+  for = "/*"
+  [headers.values]
+    # Prevent XSS attacks and other injections
+    Content-Security-Policy = "default-src 'self' https://kynos-ai-consultant.zapier.app https://interfaces.zapier.com https://imagedelivery.net; script-src 'self' https://interfaces.zapier.com 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' https://imagedelivery.net data: https:; font-src 'self' data:; connect-src 'self' https://kynos-ai-consultant.zapier.app https://interfaces.zapier.com; frame-src https://kynos-ai-consultant.zapier.app https://interfaces.zapier.com; upgrade-insecure-requests;"
+    
+    # Prevent clickjacking attacks
+    X-Frame-Options = "SAMEORIGIN"
+    
+    # Prevent MIME type sniffing
+    X-Content-Type-Options = "nosniff"
+    
+    # Control referrer information
+    Referrer-Policy = "no-referrer-when-downgrade"
+    
+    # Restrict browser features
+    Permissions-Policy = "accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=(), interest-cohort=()"
+    
+    # Enhanced HSTS with preload
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+    
+    # XSS Protection as fallback
+    X-XSS-Protection = "1; mode=block"
+
+# Add SRI hashes for external resources
+[[headers]]
+  for = "*.js"
+  [headers.values]
+    Cross-Origin-Resource-Policy = "same-origin"
+    
+[[headers]]
+  for = "*.css"
+  [headers.values]
+    Cross-Origin-Resource-Policy = "same-origin"
