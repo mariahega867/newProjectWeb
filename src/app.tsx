@@ -7,6 +7,7 @@ import { Careers } from './pages/careers';
 import { Blog } from './pages/blog';
 import { BlogPost } from './pages/blogpost';
 import { BlogPostWildRide } from './pages/blogpostwildride';
+import { BlogPostAIStrategy } from './pages/blogpost-ai-strategy';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/blog" element={<Blog />} />
           <Route path="/blog/ai-unleashed" element={<BlogPost />} />
           <Route path="/blog/ai-wild-ride" element={<BlogPostWildRide />} />
+          <Route path="/blog/ai-strategy" element={<BlogPostAIStrategy />} />
         </Routes>
       </div>
     </Router>

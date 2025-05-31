@@ -65,6 +65,15 @@ const blogPosts = [
     category: "Machine Learning",
     image: "https://imagedelivery.net/SZohZ5hDHQrPE1IYbmlzaA/dd1f5ea3-c3de-4dbd-b66b-1d63f739ac00/public",
     link: "#"
+  },
+  {
+    title: "AI Strategy for Small Businesses: A Complete Guide to Success",
+    excerpt: "Discover how to develop and implement an effective AI strategy for your small business. Learn about practical solutions, quick wins, and expert guidance to stay competitive in today's market.",
+    date: "March 20, 2024",
+    readTime: "8 min read",
+    category: "Business Strategy",
+    image: "https://imagedelivery.net/SZohZ5hDHQrPE1IYbmlzaA/85302a84-632a-4892-214a-8123d1cee900/public",
+    link: "/blog/ai-strategy"
   }
 ];
 
