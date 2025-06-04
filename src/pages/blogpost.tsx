@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Calendar, Clock, Tag, ArrowLeft } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
@@ -12,15 +12,29 @@ const sectionImages = {
 };
 
 export function BlogPost() {
+  useEffect(() => {
+    // Debug log to verify image URLs
+    console.log('Image URLs:', sectionImages);
+    
+    // Check if images are loading
+    Object.entries(sectionImages).forEach(([key, url]) => {
+      const img = new Image();
+      img.onload = () => console.log(`Image loaded successfully: ${key}`);
+      img.onerror = () => console.log(` Image failed to load: ${key}`);
+      img.src = url;
+    });
+  }, []);
+
   return (
     <div className="min-h-screen bg-gray-100">
       <div className="relative py-20 px-4">
-        <div className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-             style={{
-               backgroundImage: `url(${sectionImages.hero})`,
-               backgroundPosition: 'center',
-               backgroundSize: 'cover'
-             }}>
+        <div 
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat border-4 border-red-500"
+          style={{
+            backgroundImage: `url(${sectionImages.hero})`,
+            backgroundPosition: 'center',
+            backgroundSize: 'cover'
+          }}>
           <div className="absolute inset-0 bg-black/50"></div>
         </div>
         
