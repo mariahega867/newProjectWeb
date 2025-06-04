@@ -8,10 +8,20 @@ const categories = [
   "Business Strategy",
   "Technology Trends",
   "Digital Transformation",
-  "Case Studies"
+  "Case Studies",
+  "Business Automation"
 ];
 
 const blogPosts = [
+  {
+    title: "Business Process Automation Tools: A Guide for Small Businesses",
+    excerpt: "In today's fast-changing world, small businesses need to find ways to work smarter, not harder. Business process automation tools are key to this shift. These innovative software solutions help automate small business operations, making workflows faster, cheaper, and more accurate.",
+    date: "March 25, 2024",
+    readTime: "12 min read",
+    category: "Business Automation",
+    image: "https://images.unsplash.com/photo-1518186285589-2f7649de83e0",
+    link: "/blog/business-automation"
+  },
   {
     title: "AI's Wild Ride: Top Insights from March 6, 2025",
     excerpt: "Buckle up, tech fans! The AI world is buzzing louder than ever, and we've scooped up the hottest insights from the last 24 hours. Smarter bots, wild tools, and game-changing ideas—here's your daily dose of AI magic, served fresh and feisty.",
