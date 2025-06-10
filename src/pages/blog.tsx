@@ -1,6 +1,7 @@
 import React from 'react';
 import { Calendar, Clock, ArrowRight, Search, Tag } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { blogPostContent } from './third';
 
 const categories = [
   "Artificial Intelligence",
