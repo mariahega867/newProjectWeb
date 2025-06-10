@@ -1,4 +1,3 @@
-```tsx
 import React from 'react';
 import { Calendar, Clock, ArrowRight, Search, Tag } from 'lucide-react';
 import { Link } from 'react-router-dom';
@@ -20,7 +19,7 @@ const blogPosts = [
     date: "June 10, 2025",
     readTime: "6 min read",
     category: "Machine Learning Services",
-    image: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NjIzNDN8MHwxfHNlYXJjaHwxfHxtYWNoaW5lJTIwbGVhcm5pbmclMjBjb25zdWx0aW5nJTIwc2VydmljZXMlMkMlMjBzbWFsbCUyMGJ1c2luZXNzJTIwbWFjaGluZSUyMGxlYXJuaW5nJTIwc29sdXRpb25zJTJDJTIwTUwlMjBkZXZlbG9wbWVudCUyMGZvciUyMFNNQiUyQyUyMGN1c3RvbSUyMG1hY2hpbmUlMjBsZWFybmluZyUyMG1vZGVscyUyQyUyMHByZWRpY3RpdmUlMjBhbmFseXRpY3MlMjBmb3IlMjBzbWFsbCUyMGJ1c2luZXNzfGVufDB8fHx8MTc0OTU3NjQ0OHww&ixlib=rb-4.1.0&q=80&w=1080",
+    image: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NjIzNDN8MHwxfHNlYXJjaHwxfHxtYWNoaW5lJTIwbGVhcm5pbmclMjBjb25zdWx0aW5nJTIwc2VydmljZXMlMkMlMjBzbWFsbCUyMGJ1c2luZXNzJTIwbWFjaGluZSUyMGxlYXJuaW5nJTIwbW9kZWxzJTJDJTIwcHJlZGljdGl2ZSUyMGFuYWx5dGljcyUyMGZvciUyMHNtYWxsJTIwYnVzaW5lc3N8ZW58MHx8fHwxNzQ5NTc2NDQ4fDA&ixlib=rb-4.1.0&q=80&w=1080",
     link: "/blog/machine-learning-consulting-services-guide"
   },
   {
@@ -195,4 +194,3 @@ export function Blog() {
     </div>
   );
 }
-```
