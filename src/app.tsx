@@ -10,6 +10,7 @@ import { BlogPost } from './pages/blogpost';
 import { BlogPostWildRide } from './pages/blogpostwildride';
 import { BlogPostAIStrategy } from './pages/blogpost-ai-strategy';
 import { BusinessAutomationBlogPost } from './pages/blogpost-business-automation';
+import { MachineLearningServicesGuide } from './pages/blogpost-machine-learning-services';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
             <Route path="/blog/ai-wild-ride" element={<BlogPostWildRide />} />
             <Route path="/blog/ai-strategy" element={<BlogPostAIStrategy />} />
             <Route path="/blog/business-automation" element={<BusinessAutomationBlogPost />} />
+            <Route path="/blog/machine-learning-consulting-services-guide" element={<MachineLearningServicesGuide />} />
             <Route path="/blog/ai-trends-2024" element={<BlogPost />} />
             <Route path="/blog/implementing-ai-solutions" element={<BlogPost />} />
             <Route path="/blog/ai-security-guide" element={<BlogPost />} />
