@@ -101,12 +101,12 @@ export function Blog() {
   return (
     <div className="min-h-screen bg-gray-100">
       <div className="relative py-20 px-4">
-        <div class="absolute inset-0 bg-cover bg-center bg-no-repeat"
-       style="
-         background-image: url('https://imagedelivery.net/SZohZ5hDHQrPE1IYbmlzaA/dd1f5ea3-c3de-4dbd-b66b-1d63f739ac00/public');
-         background-position: center;
-         background-size: cover;
-       ">
+        <div className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+               style={{
+                 backgroundImage: `url('https://imagedelivery.net/SZohZ5hDHQrPE1IYbmlzaA/dd1f5ea3-c3de-4dbd-b66b-1d63f739ac00/public')`,
+                 backgroundPosition: 'center',
+                 backgroundSize: 'cover'
+               }}>
           <div className="absolute inset-0 bg-black/50"></div>
         </div>
         
