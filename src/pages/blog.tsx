@@ -1,3 +1,4 @@
+```tsx
 import React from 'react';
 import { Calendar, Clock, ArrowRight, Search, Tag } from 'lucide-react';
 import { Link } from 'react-router-dom';
@@ -13,6 +14,15 @@ const categories = [
 ];
 
 const blogPosts = [
+  {
+    title: "Machine Learning Consulting Services for Small Businesses: A Complete Guide",
+    excerpt: "This is a new blog post generated automatically.",
+    date: "June 10, 2025",
+    readTime: "6 min read",
+    category: "Machine Learning Services",
+    image: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NjIzNDN8MHwxfHNlYXJjaHwxfHxtYWNoaW5lJTIwbGVhcm5pbmclMjBjb25zdWx0aW5nJTIwc2VydmljZXMlMkMlMjBzbWFsbCUyMGJ1c2luZXNzJTIwbWFjaGluZSUyMGxlYXJuaW5nJTIwc29sdXRpb25zJTJDJTIwTUwlMjBkZXZlbG9wbWVudCUyMGZvciUyMFNNQiUyQyUyMGN1c3RvbSUyMG1hY2hpbmUlMjBsZWFybmluZyUyMG1vZGVscyUyQyUyMHByZWRpY3RpdmUlMjBhbmFseXRpY3MlMjBmb3IlMjBzbWFsbCUyMGJ1c2luZXNzfGVufDB8fHx8MTc0OTU3NjQ0OHww&ixlib=rb-4.1.0&q=80&w=1080",
+    link: "/blog/machine-learning-consulting-services-guide"
+  },
   {
     title: "Business Process Automation Tools: A Guide for Small Businesses",
     excerpt: "In today's fast-changing world, small businesses need to find ways to work smarter, not harder. Business process automation tools are key to this shift. These innovative software solutions help automate small business operations, making workflows faster, cheaper, and more accurate.",
@@ -91,12 +101,12 @@ export function Blog() {
   return (
     <div className="min-h-screen bg-gray-100">
       <div className="relative py-20 px-4">
-        <div className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-             style={{
-               backgroundImage: `url('https://imagedelivery.net/SZohZ5hDHQrPE1IYbmlzaA/dd1f5ea3-c3de-4dbd-b66b-1d63f739ac00/public')`,
-               backgroundPosition: 'center',
-               backgroundSize: 'cover'
-             }}>
+        <div class="absolute inset-0 bg-cover bg-center bg-no-repeat"
+       style="
+         background-image: url('https://imagedelivery.net/SZohZ5hDHQrPE1IYbmlzaA/dd1f5ea3-c3de-4dbd-b66b-1d63f739ac00/public');
+         background-position: center;
+         background-size: cover;
+       ">
           <div className="absolute inset-0 bg-black/50"></div>
         </div>
         
@@ -185,3 +195,4 @@ export function Blog() {
     </div>
   );
 }
+```
