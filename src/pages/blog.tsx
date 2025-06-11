@@ -16,6 +16,15 @@ const categories = [
 const blogPosts = [
   {
     title: "Machine Learning Consulting Services for Small Businesses: A Complete Guide",
+    excerpt: "Unlock the potential of machine learning for your small business with expert consulting services. Discover tailored solutions, predictive analytics, and a competitive edge in this complete guide.",
+    date: "June 10th 2025, 10:33:24 am",
+    readTime: "6 mins",
+    category: "Machine Learning Services",
+    image: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NjIzNDN8MHwxfHNlYXJjaHwxfHxtYWNoaW5lJTIwbGVhcm5pbmclMjBjb25zdWx0aW5nJTIwc2VydmljZXMlMkMlMjBzbWFsbCUyMGJ1c2luZXNzJTIwbWFjaGluZSUyMGxlYXJuaW5nJTIwc29sdXRpb25zJTJDJTIwTUwlMjBkZXZlbG9wbWVudCUyMGZvciUyMFNNQiUyQyUyMGN1c3RvbSUyMG1hY2hpbmUlMjBsZWFybmluZyUyMG1vZGVscyUyQyUyMHByZWRpY3RpdmUlMjBhbmFseXRpY3MlMjBmb3IlMjBzbWFsbCUyMGJ1c2luZXNzfGVufDB8fHx8MTc0OTU3NjQ0OHww&ixlib=rb-4.1.0&q=80&w=1080",
+    link: "/blog/machine-learning-consulting-services-guide"
+  },
+  {
+    title: "Machine Learning Consulting Services for Small Businesses: A Complete Guide",
     excerpt: "This is a new blog post generated automatically.",
     date: "June 10, 2025",
     readTime: "6 min read",
