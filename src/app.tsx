@@ -1,3 +1,4 @@
+```tsx
 import React from 'react';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import { Navigation } from './components/navigation';
@@ -7,9 +8,10 @@ import { News } from './pages/news';
 import { Careers } from './pages/careers';
 import { Blog } from './pages/blog';
 import { BlogPost } from './pages/blogpost';
-import { BlogPostWildRide } from './pages/blogpostwildride';
 import { BlogPostAIStrategy } from './pages/blogpost-ai-strategy';
+import { BlogPostWildRide } from './pages/blogpostwildride';
 import { BusinessAutomationBlogPost } from './pages/blogpost-business-automation';
+import { Machine Learning Consulting Services for Small Businesses: A Complete Guide } from './pages/machine-learning-consulting-services-guide';
 import { MachineLearningServicesGuide } from './pages/blogpost-machine-learning-services';
 
 function App() {
@@ -27,6 +29,9 @@ function App() {
             <Route path="/blog/ai-wild-ride" element={<BlogPostWildRide />} />
             <Route path="/blog/ai-strategy" element={<BlogPostAIStrategy />} />
             <Route path="/blog/business-automation" element={<BusinessAutomationBlogPost />} />
+            <Route path="/blog/machine-learning-consulting-services-guide" element={<Machine Learning Consulting Services for Small Businesses: A Complete Guide />} />
+            <Route path="/blog/machine-learning-consulting-services-guide" element={<MachineLearningServicesGuide />} />
+            <Route path="/blog/machine-learning-consulting-services-guide" element={<Machine Learning Consulting Services for Small Businesses: A Complete Guide />} />
             <Route path="/blog/machine-learning-consulting-services-guide" element={<MachineLearningServicesGuide />} />
             <Route path="/blog/ai-trends-2024" element={<BlogPost />} />
             <Route path="/blog/implementing-ai-solutions" element={<BlogPost />} />
@@ -40,3 +45,4 @@ function App() {
 }
 
 export default App;
+```
