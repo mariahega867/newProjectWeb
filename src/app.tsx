@@ -1,4 +1,3 @@
-```tsx
 import React from 'react';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import { Navigation } from './components/navigation';
@@ -11,8 +10,8 @@ import { BlogPost } from './pages/blogpost';
 import { BlogPostAIStrategy } from './pages/blogpost-ai-strategy';
 import { BlogPostWildRide } from './pages/blogpostwildride';
 import { BusinessAutomationBlogPost } from './pages/blogpost-business-automation';
-import { Machine Learning Consulting Services for Small Businesses: A Complete Guide } from './pages/machine-learning-consulting-services-guide';
 import { MachineLearningServicesGuide } from './pages/blogpost-machine-learning-services';
+import { Machine Learning Consulting Services for Small Businesses: A Complete Guide } from './pages/machine-learning-consulting-services-guide';
 
 function App() {
   return (
@@ -29,14 +28,12 @@ function App() {
             <Route path="/blog/ai-wild-ride" element={<BlogPostWildRide />} />
             <Route path="/blog/ai-strategy" element={<BlogPostAIStrategy />} />
             <Route path="/blog/business-automation" element={<BusinessAutomationBlogPost />} />
-            <Route path="/blog/machine-learning-consulting-services-guide" element={<Machine Learning Consulting Services for Small Businesses: A Complete Guide />} />
-            <Route path="/blog/machine-learning-consulting-services-guide" element={<MachineLearningServicesGuide />} />
-            <Route path="/blog/machine-learning-consulting-services-guide" element={<Machine Learning Consulting Services for Small Businesses: A Complete Guide />} />
-            <Route path="/blog/machine-learning-consulting-services-guide" element={<MachineLearningServicesGuide />} />
-            <Route path="/blog/ai-trends-2024" element={<BlogPost />} />
             <Route path="/blog/implementing-ai-solutions" element={<BlogPost />} />
-            <Route path="/blog/ai-security-guide" element={<BlogPost />} />
+            <Route path="/blog/machine-learning-consulting-services-guide" element={<Machine Learning Consulting Services for Small Businesses: A Complete Guide />} />
+            <Route path="/blog/machine-learning-consulting-services-guide" element={<MachineLearningServicesGuide />} />
             <Route path="/blog/machine-learning-guide" element={<BlogPost />} />
+            <Route path="/blog/ai-trends-2024" element={<BlogPost />} />
+            <Route path="/blog/ai-security-guide" element={<BlogPost />} />
           </Routes>
         </ErrorBoundary>
       </div>
@@ -45,4 +42,3 @@ function App() {
 }
 
 export default App;
-```
