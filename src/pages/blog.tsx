@@ -15,6 +15,15 @@ const categories = [
 
 const blogPosts = [
   {
+    title: "Data Infrastructure Consulting: How Small Businesses Can Build Smarter Systems for Growth",
+    excerpt: "Unlock the potential of your small business with data infrastructure consulting. Discover how to build scalable systems, optimize data pipelines, and drive growth.",
+    date: "June 13th 2025, 11:47:19 pm",
+    readTime: "7 mins",
+    category: "Data Infrastructure Setup",
+    image: "https://images.unsplash.com/photo-1542744173-05336fcc7ad4?ixid=M3w3NjIzNDN8MHwxfHNlYXJjaHwyfHxEYXRhJTIwSW5mcmFzdHJ1Y3R1cmUlMjBTZXR1cHxlbnwwfHx8fDE3NDk4OTAyMzN8MA&ixlib=rb-4.1.0",
+    link: "/blog/data-infrastructure-consulting-smbs"
+  },
+  {
     title: "Using Data for Business Decisions: Building a Data-Driven Business with Predictive Insights and AI",
     excerpt: "Learn how to use data for business decisions with predictive insights, AI tools, and KPIs. Boost efficiency, reduce risks, and drive growth today!",
     date: "June 13th 2025, 11:47:19 pm",
