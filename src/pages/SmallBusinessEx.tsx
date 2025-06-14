@@ -10,7 +10,7 @@ export function BlogPostAIExamplesSmallBusiness() {
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url('https://placehold.co/1920x1080/2563eb/ffffff?text=Small+Business+AI')`,
+            backgroundImage: `url('https://images.unsplash.com/photo-1507679799987-c73779587ccf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NjIzNDN8MHwxfHNlYXJjaHwxfHxBSSUyMGV4YW1wbGVzJTIwZm9yJTIwc21hbGwlMjBidXNpbmVzc2VzJTJDJTIwaG93JTIwc21hbGwlMjBidXNpbmVzc2VzJTIwdXNlJTIwQUklMkMlMjBBSSUyMHNvbHV0aW9ucyUyMGZvciUyMHJldGFpbCUyRmhlYWx0aGNhcmUlMkZlLWNvbW1lcmNlJTJDJTIwYmVzdCUyMEFJJTIwdG9vbHMlMjBmb3IlMjBzbWFsbCUyMGJ1c2luZXNzJTJDJTIwdXNlJTIwY2FzZXMlMjBvZiUyMEFJJTIwaW4lMjBjdXN0b21lciUyMHNlcnZpY2V8ZW58MHx8fHwxNzQ5ODg0NTM2fDA&ixlib=rb-4.1.0&q=80&w=1080')`,
             backgroundPosition: 'center',
             backgroundSize: 'cover'
           }}
@@ -27,7 +27,7 @@ export function BlogPostAIExamplesSmallBusiness() {
           <article className="bg-white rounded-lg shadow-xl overflow-hidden">
             <div className="relative h-96">
               <img
-                src="https://placehold.co/1920x1080/2563eb/ffffff?text=Small+Business+AI"
+                src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NjIzNDN8MHwxfHNlYXJjaHwxfHxBSSUyMGV4YW1wbGVzJTIwZm9yJTIwc21hbGwlMjBidXNpbmVzc2VzJTJDJTIwaG93JTIwc21hbGwlMjBidXNpbmVzc2VzJTIwdXNlJTIwQUklMkMlMjBBSSUyMHNvbHV0aW9ucyUyMGZvciUyMHJldGFpbCUyRmhlYWx0aGNhcmUlMkZlLWNvbW1lcmNlJTJDJTIwYmVzdCUyMEFJJTIwdG9vbHMlMjBmb3IlMjBzbWFsbCUyMGJ1c2luZXNzJTJDJTIwdXNlJTIwY2FzZXMlMjBvZiUyMEFJJTIwaW4lMjBjdXN0b21lciUyMHNlcnZpY2V8ZW58MHx8fHwxNzQ5ODg0NTM2fDA&ixlib=rb-4.1.0&q=80&w=1080"
                 alt="AI Examples for Small Businesses: Practical Uses & Tools to Boost Growth"
                 className="w-full h-full object-cover"
               />

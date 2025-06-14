@@ -1,6 +1,7 @@
 import React from 'react';
 import { Calendar, Clock, Tag, ArrowLeft } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { blogPostContent } from './_best-ai-automation-software-guide';
 
 export const blogPostContentBestAIAutomationSoftware = `
   <p class="text-lg text-gray-600 mb-8">
@@ -152,7 +153,7 @@ export function BlogPostAIAutomationSoftware() {
       <div className="relative py-20 px-4">
         <div className="absolute inset-0 bg-cover bg-center bg-no-repeat"
              style={{
-               backgroundImage: `url('https://placehold.co/1920x1080/2563eb/ffffff?text=AI+Automation')`,
+               backgroundImage: `url('https://images.unsplash.com/photo-1606676539940-12768ce0e762?ixid=M3w3NjIzNDN8MHwxfHNlYXJjaHwyfHxBSSUyMEF1dG9tYXRpb24lMjBUb29scyUyMHxlbnwwfHx8fDE3NDk4ODc3MDl8MA&ixlib=rb-4.1.0')`,
                backgroundPosition: 'center',
                backgroundSize: 'cover'
              }}>
@@ -168,7 +169,7 @@ export function BlogPostAIAutomationSoftware() {
           <article className="bg-white rounded-lg shadow-xl overflow-hidden">
             <div className="relative h-96">
               <img
-                src="https://placehold.co/1920x1080/2563eb/ffffff?text=AI+Automation"
+                src="https://images.unsplash.com/photo-1606676539940-12768ce0e762?ixid=M3w3NjIzNDN8MHwxfHNlYXJjaHwyfHxBSSUyMEF1dG9tYXRpb24lMjBUb29scyUyMHxlbnwwfHx8fDE3NDk4ODc3MDl8MA&ixlib=rb-4.1.0"
                 alt="The Best AI Automation Software for Small Businesses: Features, ROI & Cost Savings"
                 className="w-full h-full object-cover"
               />

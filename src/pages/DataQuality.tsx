@@ -10,7 +10,7 @@ export function BlogPostDataQualitySMB() {
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url('https://placehold.co/1920x1080/2563eb/ffffff?text=Data+Quality')`,
+            backgroundImage: `url('https://images.unsplash.com/photo-1488229297570-58520851e868?ixid=M3w3NjIzNDN8MHwxfHNlYXJjaHwyfHxEYXRhJTIwR292ZXJuYW5jZSUyMHxlbnwwfHx8fDE3NDk4OTA1Mjd8MA&ixlib=rb-4.1.0')`,
             backgroundPosition: 'center',
             backgroundSize: 'cover',
           }}
@@ -30,7 +30,7 @@ export function BlogPostDataQualitySMB() {
           <article className="bg-white rounded-lg shadow-xl overflow-hidden">
             <div className="relative h-96">
               <img
-                src="https://placehold.co/1920x1080/2563eb/ffffff?text=Data+Quality"
+                src="https://images.unsplash.com/photo-1488229297570-58520851e868?ixid=M3w3NjIzNDN8MHwxfHNlYXJjaHwyfHxEYXRhJTIwR292ZXJuYW5jZSUyMHxlbnwwfHx8fDE3NDk4OTA1Mjd8MA&ixlib=rb-4.1.0"
                 alt="Data Quality for AI Success in Small and Medium Businesses"
                 className="w-full h-full object-cover"
               />

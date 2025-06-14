@@ -10,7 +10,7 @@ export function BlogPostMLBusinessGrowth() {
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url('https://placehold.co/1920x1080/2563eb/ffffff?text=Customer+Success+ML')`,
+            backgroundImage: `url('https://images.unsplash.com/photo-1705769943793-821f557c6942?ixid=M3w3NjIzNDN8MHwxfHNlYXJjaHwyfHxQcmFjdGljYWwlMjBNTCUyMEFwcGxpY2F0aW9uc3xlbnwwfHx8fDE3NDk4ODg2NDB8MA&ixlib=rb-4.1.0')`,
             backgroundPosition: 'center',
             backgroundSize: 'cover',
           }}
@@ -30,7 +30,7 @@ export function BlogPostMLBusinessGrowth() {
           <article className="bg-white rounded-lg shadow-xl overflow-hidden">
             <div className="relative h-96">
               <img
-                src="https://placehold.co/1920x1080/2563eb/ffffff?text=Customer+Success+ML"
+                src="https://images.unsplash.com/photo-1705769943793-821f557c6942?ixid=M3w3NjIzNDN8MHwxfHNlYXJjaHwyfHxQcmFjdGljYWwlMjBNTCUyMEFwcGxpY2F0aW9uc3xlbnwwfHx8fDE3NDk4ODg2NDB8MA&ixlib=rb-4.1.0"
                 alt="Unlocking Business Growth with Machine Learning: A Practical Guide"
                 className="w-full h-full object-cover"
               />

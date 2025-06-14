@@ -9,7 +9,7 @@ export function BlogPostBISMB() {
       <div className="relative py-20 px-4">
         <div className="absolute inset-0 bg-cover bg-center bg-no-repeat"
              style={{
-               backgroundImage: `url('https://placehold.co/1920x1080/2563eb/ffffff?text=Business+Intelligence')`,
+               backgroundImage: `url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixid=M3w3NjIzNDN8MHwxfHNlYXJjaHwyfHxCdXNpbmVzcyUyMEludGVsbGlnZW5jZSUyMFNvbHV0aW9uc3xlbnwwfHx8fDE3NDk4ODk1ODV8MA&ixlib=rb-4.1.0')`,
                backgroundPosition: 'center',
                backgroundSize: 'cover'
              }}>
@@ -25,7 +25,7 @@ export function BlogPostBISMB() {
           <article className="bg-white rounded-lg shadow-xl overflow-hidden">
             <div className="relative h-96">
               <img
-                src="https://placehold.co/1920x1080/2563eb/ffffff?text=Business+Intelligence"
+                src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixid=M3w3NjIzNDN8MHwxfHNlYXJjaHwyfHxCdXNpbmVzcyUyMEludGVsbGlnZW5jZSUyMFNvbHV0aW9uc3xlbnwwfHx8fDE3NDk4ODk1ODV8MA&ixlib=rb-4.1.0"
                 alt="Business Intelligence for Small Businesses: Unlocking Data-Driven Success"
                 className="w-full h-full object-cover"
               />
