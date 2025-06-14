@@ -2,7 +2,7 @@ import React from 'react';
 import { Calendar, Clock, Tag, ArrowLeft } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
-export const blogPostContent = `
+export const blogPostContentMachineLearningConsultingServicesSMBS = `
   <p class="text-lg text-gray-600 mb-8">
     Machine learning (ML) is rapidly reshaping how businesses operate, bringing automation, smarter insights, and competitive growth even to smaller companies. Today, <a href="https://indatalabs.com/blog/ai-consulting-for-small-businesses" class="text-blue-600 hover:text-blue-800">machine learning consulting services</a> are empowering small businesses with expert AI guidance once reserved for large corporations. By partnering with the right consultants, SMBs can efficiently leverage custom machine learning solutions tailored to their unique needs and goals.
   </p>

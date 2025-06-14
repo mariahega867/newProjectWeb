@@ -3,7 +3,7 @@ import React from 'react';
 import { Calendar, Clock, Tag, ArrowLeft } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
-export const blogPostContent = `
+export const blogPostContentEnhancingDataQualityAIProjects = `
   <p class="text-lg text-gray-600 mb-8">
     High-quality data is the backbone of effective <a href="https://www.synergyonline.com/post/ai-powered-analytics-and-smb-operations-unlock-data-driven-decision-making" class="text-blue-600 hover:text-blue-800">data quality for AI projects</a> in small and medium businesses (SMBs). Without accurate, consistent, and well-governed data, your AI initiatives may falter—leading to missed opportunities and unreliable insights. Prioritizing data quality, governance, and security isn’t just for large enterprises—these are accessible, practical steps that SMBs can take for big results.
   </p>

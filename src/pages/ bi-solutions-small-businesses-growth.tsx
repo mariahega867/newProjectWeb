@@ -2,7 +2,7 @@ import React from 'react';
 import { Calendar, Clock, Tag, ArrowLeft } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
-export const blogPostContent = `
+export const blogPostContentBISolutionsSmallBusinessesGrowth = `
   <p class="text-lg text-gray-600 mb-8">
     In today's fast-changing marketplace, making decisions based on data is more important than ever for small businesses. When owners rely on intuition or manual spreadsheets, they miss out on critical insights that can drive growth and improve operations. This is where <a href="https://sesamesoftware.com/business-intelligence/unlocking-the-power-of-business-intelligence-for-small-businesses/" class="text-blue-600 hover:text-blue-800">BI solutions for small businesses</a> come into play. By harnessing these tools, entrepreneurs can shift from guesswork to informed, strategic decisions. They gain access to powerful analytics, real-time dashboards, and actionable insights that streamline operations, identify new opportunities, and strengthen competitiveness.
   </p>

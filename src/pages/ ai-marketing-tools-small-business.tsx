@@ -3,7 +3,7 @@ import { Calendar, Clock, Tag, ArrowLeft } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { blogPostContent } from './ai-strategy';
 
-export function BlogPostAIStrategy() {
+export function BlogPostMarketingToolsSmallBusiness() {
   return (
     <div className="min-h-screen bg-gray-100">
       <div className="relative py-20 px-4">

@@ -2,7 +2,7 @@ import React from 'react';
 import { Calendar, Clock, Tag, ArrowLeft } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
-export const blogPostContent = `
+export const blogPostContentUsingDataForBusinessDecisions = `
   <p class="text-lg text-gray-600 mb-8">
     Using <a href="https://www.ibm.com/think/topics/data-driven-decision-making" class="text-blue-600 hover:text-blue-800">data for business decisions</a> gives organizations a real advantage in a fast-paced market. Moving from gut feeling to fact-based choices unlocks predictive power, boosts efficiency, and reveals new opportunities while reducing risk. By adopting a data-driven approach—especially with predictive insights and AI—your business can stay ahead, adapt swiftly, and set the stage for smarter, sustained growth. <a href="https://www.rib-software.com/en/blogs/data-driven-decision-making-in-businesses" class="text-blue-600 hover:text-blue-800">Learn more about how data impacts business growth</a>.
   </p>

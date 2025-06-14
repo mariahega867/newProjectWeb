@@ -2,7 +2,7 @@ import React from 'react';
 import { Calendar, Clock, Tag, ArrowLeft } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
-export const blogPostContent = `
+export const blogPostContentBestAIAutomationSoftware = `
   <p class="text-lg text-gray-600 mb-8">
     AI automation software is revolutionizing how businesses operate today. It offers a way to streamline workflows, cut down manual work, and boost productivity. As more companies seek efficient, scalable, and easy-to-use AI tools, the demand continues to grow quickly. Businesses no longer need to rely solely on traditional automation. Instead, they can harness the power of artificial intelligence to perform complex tasks, adapt to new situations, and improve overall efficiency.
   </p>
