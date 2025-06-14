@@ -15,6 +15,15 @@ const categories = [
 
 const blogPosts = [
   {
+    title: "AI Examples for Small Businesses: Practical Applications to Boost Efficiency and Growth",
+    excerpt: "Discover how small businesses use AI to automate tasks, improve customer service, optimize operations, and boost growth with practical tools and real-world examples.",
+    date: "June 13th 2025, 11:47:19 pm",
+    readTime: "7 mins",
+    category: "AI examples for small businesses",
+    image: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NjIzNDN8MHwxfHNlYXJjaHwxfHxBSSUyMGV4YW1wbGVzJTIwZm9yJTIwc21hbGwlMjBidXNpbmVzc2VzJTJDJTIwaG93JTIwc21hbGwlMjBidXNpbmVzc2VzJTIwdXNlJTIwQUklMkMlMjBBSSUyMHNvbHV0aW9ucyUyMGZvciUyMHJldGFpbCUyRmhlYWx0aGNhcmUlMkZlLWNvbW1lcmNlJTJDJTIwYmVzdCUyMEFJJTIwdG9vbHMlMjBmb3IlMjBzbWFsbCUyMGJ1c2luZXNzJTJDJTIwdXNlJTIwY2FzZXMlMjBvZiUyMEFJJTIwaW4lMjBjdXN0b21lciUyMHNlcnZpY2V8ZW58MHx8fHwxNzQ5ODg0NTM2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    link: "/blog/ai-examples-small-businesses"
+  },
+  {
     
     title: "AI Strategy for Small Businesses: A Complete Guide to Success",
     excerpt: "Discover how to develop and implement an effective AI strategy for your small business. Learn about practical solutions, quick wins, and expert guidance to stay competitive in today's market.",
