@@ -9,6 +9,7 @@ import { Blog } from './pages/blog';
 import { Best AI Automation Software: Transform Your Business with Intelligent Automation } from './pages/best-ai-automation-software-guide';
 import { BlogPostAIStrategy } from './pages/blogpost-ai-strategy';
 import { BlogPostAIExamplesSmallBusiness } from './pages/ ai_examplessmallbusinesses.tsx';
+import { Machine Learning Consulting Services: Empowering Small Business Success } from './pages/machine-learning-consulting-services-smbs';
 import { Transform Your Small Business with Business Process Automation Tools } from './pages/business-process-automation-tools';
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
             <Route path="/blog/ai-strategy" element={<BlogPostAIStrategy />} />
             <Route path="/blog/best-ai-automation-software-guide" element={< Best AI Automation Software: Transform Your Business with Intelligent Automation/>} />
             <Route path="/blog/business-process-automation-tools" element={< Transform Your Small Business with Business Process Automation Tools/>} />
+            <Route path="/blog/machine-learning-consulting-services-smbs" element={< Machine Learning Consulting Services: Empowering Small Business Success/>} />
           </Routes>
         </ErrorBoundary>
       </div>
