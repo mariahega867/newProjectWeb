@@ -8,6 +8,7 @@ import { Careers } from './pages/careers';
 import { Blog } from './pages/blog';
 import { BlogPostAIStrategy } from './pages/blogpost-ai-strategy';
 import { BlogPostAIExamplesSmallBusiness } from './pages/ ai_examplessmallbusinesses.tsx';
+import { Transform Your Small Business with Business Process Automation Tools } from './pages/business-process-automation-tools';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             <Route path="/blog" element={<Blog />} />
             <Route path="/blog/ai-examples-small-businesses" element={<BlogPostAIExamplesSmallBusiness />} />
             <Route path="/blog/ai-strategy" element={<BlogPostAIStrategy />} />
+            <Route path="/blog/business-process-automation-tools" element={< Transform Your Small Business with Business Process Automation Tools/>} />
           </Routes>
         </ErrorBoundary>
       </div>
