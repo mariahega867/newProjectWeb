@@ -10,7 +10,7 @@ export function BlogPostDataDrivenDecisions() {
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url('https://imagedelivery.net/SZohZ5hDHQrPE1IYbmlzaA/62b9456a-ab3a-4a93-0b38-492e035abcb0/public')`,
+            backgroundImage: `url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixid=M3w3NjIzNDN8MHwxfHNlYXJjaHwyfHxEYXRhJTIwQW5hbHl0aWNzJTIwQnVzaW5lc3N8ZW58MHx8fHwxNzQ5ODg5OTA3fDA&ixlib=rb-4.1.0')`,
             backgroundPosition: 'center',
             backgroundSize: 'cover',
           }}
@@ -30,7 +30,7 @@ export function BlogPostDataDrivenDecisions() {
           <article className="bg-white rounded-lg shadow-xl overflow-hidden">
             <div className="relative h-96">
               <img
-                src="https://imagedelivery.net/SZohZ5hDHQrPE1IYbmlzaA/62b9456a-ab3a-4a93-0b38-492e035abcb0/public"
+                src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixid=M3w3NjIzNDN8MHwxfHNlYXJjaHwyfHxEYXRhJTIwQW5hbHl0aWNzJTIwQnVzaW5lc3N8ZW58MHx8fHwxNzQ5ODg5OTA3fDA&ixlib=rb-4.1.0"
                 alt="How to Use Data for Business Decisions: Predictive Insights & AI"
                 className="w-full h-full object-cover"
               />
