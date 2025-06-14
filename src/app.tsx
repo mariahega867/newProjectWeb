@@ -6,6 +6,7 @@ import { Home } from './pages/home';
 import { News } from './pages/news';
 import { Careers } from './pages/careers';
 import { Blog } from './pages/blog';
+import { AI Marketing Tools for Small Business: Unlock Growth with Advanced Technology } from './pages/ai-marketing-tools-small-business';
 import { AI SEO Services for Small Business: Boost Online Visibility with Advanced Tools } from './pages/ai-seo-services-small-business';
 import { Best AI Automation Software: Transform Your Business with Intelligent Automation } from './pages/best-ai-automation-software-guide';
 import { BlogPostAIStrategy } from './pages/blogpost-ai-strategy';
@@ -26,6 +27,7 @@ function App() {
             <Route path="/careers" element={<Careers />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/blog/ai-examples-small-businesses" element={<BlogPostAIExamplesSmallBusiness />} />
+            <Route path="/blog/ai-marketing-tools-small-business" element={< AI Marketing Tools for Small Business: Unlock Growth with Advanced Technology/>} />
             <Route path="/blog/ai-seo-services-small-business" element={< AI SEO Services for Small Business: Boost Online Visibility with Advanced Tools/>} />
             <Route path="/blog/ai-strategy" element={<BlogPostAIStrategy />} />
             <Route path="/blog/best-ai-automation-software-guide" element={< Best AI Automation Software: Transform Your Business with Intelligent Automation/>} />
