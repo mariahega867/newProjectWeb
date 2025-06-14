@@ -15,6 +15,15 @@ const categories = [
 
 const blogPosts = [
   {
+    title: "AI SEO Services for Small Business: Boost Online Visibility with Advanced Tools",
+    excerpt: "Revolutionize your online presence! Discover how AI SEO services for small businesses improve rankings, optimize content, and drive traffic with cost-effective, data-driven tools.",
+    date: "June 13th 2025, 11:47:19 pm",
+    readTime: "7 mins",
+    category: "AI SEO Services",
+    image: "https://images.unsplash.com/photo-1562577309-2592ab84b1bc?ixid=M3w3NjIzNDN8MHwxfHNlYXJjaHwyfHxBSSUyMFNFTyUyMFNlcnZpY2VzfGVufDB8fHx8MTc0OTg4ODk1OXww&ixlib=rb-4.1.0",
+    link: "/blog/ai-seo-services-small-business"
+  },
+  {
     title: "Unlocking Business Growth with Customer Segmentation Using Machine Learning",
     excerpt: "Discover how machine learning transforms business growth with advanced customer segmentation, sales forecasting, fraud detection, churn prediction, and inventory optimization.",
     date: "June 13th 2025, 11:47:19 pm",
