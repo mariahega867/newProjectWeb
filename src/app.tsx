@@ -15,6 +15,7 @@ import { Machine Learning Consulting Services: Empowering Small Business Success
 import { Transform Your Small Business with Business Process Automation Tools } from './pages/business-process-automation-tools';
 import { Unlocking Business Growth with Customer Segmentation Using Machine Learning } from './pages/customer-segmentation-machine-learning';
 import { Unlocking the Power of BI Solutions for Small Businesses: A Guide to Growth and Data-Driven Decision Making } from './pages/bi-solutions-small-businesses-growth';
+import { Using Data for Business Decisions: Building a Data-Driven Business with Predictive Insights and AI } from './pages/using-data-for-business-decisions';
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
             <Route path="/blog/business-process-automation-tools" element={< Transform Your Small Business with Business Process Automation Tools/>} />
             <Route path="/blog/customer-segmentation-machine-learning" element={< Unlocking Business Growth with Customer Segmentation Using Machine Learning/>} />
             <Route path="/blog/machine-learning-consulting-services-smbs" element={< Machine Learning Consulting Services: Empowering Small Business Success/>} />
+            <Route path="/blog/using-data-for-business-decisions" element={< Using Data for Business Decisions: Building a Data-Driven Business with Predictive Insights and AI/>} />
           </Routes>
         </ErrorBoundary>
       </div>
