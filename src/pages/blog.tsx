@@ -15,6 +15,15 @@ const categories = [
 
 const blogPosts = [
   {
+    title: "Unlocking Business Growth with Customer Segmentation Using Machine Learning",
+    excerpt: "Discover how machine learning transforms business growth with advanced customer segmentation, sales forecasting, fraud detection, churn prediction, and inventory optimization.",
+    date: "June 13th 2025, 11:47:19 pm",
+    readTime: "7 mins",
+    category: "Practical ML Applications",
+    image: "https://images.unsplash.com/photo-1705769943793-821f557c6942?ixid=M3w3NjIzNDN8MHwxfHNlYXJjaHwyfHxQcmFjdGljYWwlMjBNTCUyMEFwcGxpY2F0aW9uc3xlbnwwfHx8fDE3NDk4ODg2NDB8MA&ixlib=rb-4.1.0",
+    link: "/blog/customer-segmentation-machine-learning"
+  },
+  {
     title: "Machine Learning Consulting Services: Empowering Small Business Success",
     excerpt: "Discover how machine learning consulting services empower small businesses with custom solutions, predictive analytics, and scalable ML development to drive growth and efficiency.",
     date: "June 13th 2025, 11:47:19 pm",
