@@ -20,9 +20,8 @@ function App() {
             <Route path="/news" element={<News />} />
             <Route path="/careers" element={<Careers />} />
             <Route path="/blog" element={<Blog />} />
-            <Route path="/blog/_ai-examples-small-businesses" element={<BlogPostAIExamplesSmallBusiness />} />
+            <Route path="/blog/ai-examples-small-businesses" element={<BlogPostAIExamplesSmallBusiness />} />
             <Route path="/blog/ai-strategy" element={<BlogPostAIStrategy />} />
-            <Route path="/blog/implementing-ai-solutions" element={<BlogPostAIStrategy />} />
           </Routes>
         </ErrorBoundary>
       </div>
