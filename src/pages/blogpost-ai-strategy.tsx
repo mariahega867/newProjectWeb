@@ -9,7 +9,7 @@ export function BlogPostAIStrategy() {
       <div className="relative py-20 px-4">
         <div className="absolute inset-0 bg-cover bg-center bg-no-repeat"
              style={{
-               backgroundImage: `url('https://imagedelivery.net/SZohZ5hDHQrPE1IYbmlzaA/85302a84-632a-4892-214a-8123d1cee900/public')`,
+               backgroundImage: `url('https://placehold.co/1920x1080/2563eb/ffffff?text=AI+Strategy')`,
                backgroundPosition: 'center',
                backgroundSize: 'cover'
              }}>
@@ -25,7 +25,7 @@ export function BlogPostAIStrategy() {
           <article className="bg-white rounded-lg shadow-xl overflow-hidden">
             <div className="relative h-96">
               <img
-                src="https://imagedelivery.net/SZohZ5hDHQrPE1IYbmlzaA/85302a84-632a-4892-214a-8123d1cee900/public"
+                src="https://placehold.co/1920x1080/2563eb/ffffff?text=AI+Strategy"
                 alt="AI Strategy for Small Businesses: A Complete Guide to Success"
                 className="w-full h-full object-cover"
               />

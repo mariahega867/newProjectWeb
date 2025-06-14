@@ -10,7 +10,7 @@ export function BlogPostAIExamplesSmallBusiness() {
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url('https://imagedelivery.net/SZohZ5hDHQrPE1IYbmlzaA/2cedc9cb-857d-4851-6972-1b116a0e76b7/public')`,
+            backgroundImage: `url('https://placehold.co/1920x1080/2563eb/ffffff?text=Small+Business+AI')`,
             backgroundPosition: 'center',
             backgroundSize: 'cover'
           }}
@@ -27,7 +27,7 @@ export function BlogPostAIExamplesSmallBusiness() {
           <article className="bg-white rounded-lg shadow-xl overflow-hidden">
             <div className="relative h-96">
               <img
-                src="https://imagedelivery.net/SZohZ5hDHQrPE1IYbmlzaA/2cedc9cb-857d-4851-6972-1b116a0e76b7/public"
+                src="https://placehold.co/1920x1080/2563eb/ffffff?text=Small+Business+AI"
                 alt="AI Examples for Small Businesses: Practical Uses & Tools to Boost Growth"
                 className="w-full h-full object-cover"
               />

@@ -10,7 +10,7 @@ export function BlogPostMLConsulting() {
       <div className="relative py-20 px-4">
         <div className="absolute inset-0 bg-cover bg-center bg-no-repeat"
              style={{
-               backgroundImage: `url('https://imagedelivery.net/SZohZ5hDHQrPE1IYbmlzaA/015f686e-9f39-486e-73ed-6352450e7600/public')`,
+               backgroundImage: `url('https://placehold.co/1920x1080/2563eb/ffffff?text=Machine+Learning+Consulting')`,
                backgroundPosition: 'center',
                backgroundSize: 'cover'
              }}>
@@ -26,7 +26,7 @@ export function BlogPostMLConsulting() {
           <article className="bg-white rounded-lg shadow-xl overflow-hidden">
             <div className="relative h-96">
               <img
-                src="https://imagedelivery.net/SZohZ5hDHQrPE1IYbmlzaA/015f686e-9f39-486e-73ed-6352450e7600/public"
+                src="https://placehold.co/1920x1080/2563eb/ffffff?text=Machine+Learning+Consulting"
                 alt="Machine Learning Consulting Services for Small Businesses: Why, When & How"
                 className="w-full h-full object-cover"
               />

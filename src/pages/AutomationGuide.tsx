@@ -38,7 +38,7 @@ export const blogPostContentBestAIAutomationSoftware = `
         <strong>Ease of Integration:</strong> Connect seamlessly to your current tools—CRMs, ERPs, and messaging platforms—ensuring implementation is smooth and disruption is minimal.
       </li>
       <li>
-        <strong>Scalability:</strong> The software supports growing workloads and business teams, so you don’t need constant reconfiguration as you grow.
+        <strong>Scalability:</strong> The software supports growing workloads and business teams, so you don't need constant reconfiguration as you grow.
       </li>
       <li>
         <strong>User-Friendly Interface:</strong> No-code or drag-and-drop workflows empower non-technical users to automate without IT help.
@@ -134,14 +134,14 @@ export const blogPostContentBestAIAutomationSoftware = `
   <div class="my-12">
     <h2 class="text-2xl font-bold mb-4">Final Thoughts</h2>
     <p class="text-gray-600 mb-6">
-      The <a href="https://www.larksuite.com/en_us/blog/ai-automation-software" class="text-blue-600 hover:text-blue-800">best AI automation software</a> gives your business the ability to streamline operations, rapidly scale, and save costs while boosting customer experience and productivity. Assess your needs and review product demos to compare features, support, and pricing—so you pick a scalable solution built for your team’s workflows.
+      The <a href="https://www.larksuite.com/en_us/blog/ai-automation-software" class="text-blue-600 hover:text-blue-800">best AI automation software</a> gives your business the ability to streamline operations, rapidly scale, and save costs while boosting customer experience and productivity. Assess your needs and review product demos to compare features, support, and pricing—so you pick a scalable solution built for your team's workflows.
     </p>
   </div>
 
   <div class="my-12">
     <h2 class="text-2xl font-bold mb-4">Take Action Today</h2>
     <p class="text-gray-600">
-      Begin your automation journey by reviewing detailed tool comparisons, signing up for free trials, and measuring time and cost savings. With the right AI software, you’ll operate more efficiently, stay competitive, and free up resources to grow and innovate. <em>Take the next step—start automating, and transform your business for the future.</em>
+      Begin your automation journey by reviewing detailed tool comparisons, signing up for free trials, and measuring time and cost savings. With the right AI software, you'll operate more efficiently, stay competitive, and free up resources to grow and innovate. <em>Take the next step—start automating, and transform your business for the future.</em>
     </p>
   </div>
 `; 
@@ -152,7 +152,7 @@ export function BlogPostAIAutomationSoftware() {
       <div className="relative py-20 px-4">
         <div className="absolute inset-0 bg-cover bg-center bg-no-repeat"
              style={{
-               backgroundImage: `url('https://imagedelivery.net/SZohZ5hDHQrPE1IYbmlzaA/1c70ef0f-b47b-4ea8-5963-342027514701/public')`,
+               backgroundImage: `url('https://placehold.co/1920x1080/2563eb/ffffff?text=AI+Automation')`,
                backgroundPosition: 'center',
                backgroundSize: 'cover'
              }}>
@@ -168,7 +168,7 @@ export function BlogPostAIAutomationSoftware() {
           <article className="bg-white rounded-lg shadow-xl overflow-hidden">
             <div className="relative h-96">
               <img
-                src="https://imagedelivery.net/SZohZ5hDHQrPE1IYbmlzaA/1c70ef0f-b47b-4ea8-5963-342027514701/public"
+                src="https://placehold.co/1920x1080/2563eb/ffffff?text=AI+Automation"
                 alt="The Best AI Automation Software for Small Businesses: Features, ROI & Cost Savings"
                 className="w-full h-full object-cover"
               />

@@ -10,7 +10,7 @@ export function BlogPostAISEOForSmallBusiness() {
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url('https://imagedelivery.net/SZohZ5hDHQrPE1IYbmlzaA/39db752e-1760-42e8-1b78-651c01fb9f00/public')`,
+            backgroundImage: `url('https://placehold.co/1920x1080/2563eb/ffffff?text=AI+SEO')`,
             backgroundPosition: 'center',
             backgroundSize: 'cover',
           }}
@@ -30,7 +30,7 @@ export function BlogPostAISEOForSmallBusiness() {
           <article className="bg-white rounded-lg shadow-xl overflow-hidden">
             <div className="relative h-96">
               <img
-                src="https://imagedelivery.net/SZohZ5hDHQrPE1IYbmlzaA/39db752e-1760-42e8-1b78-651c01fb9f00/public"
+                src="https://placehold.co/1920x1080/2563eb/ffffff?text=AI+SEO"
                 alt="AI SEO Services for Small Business: Unlocking Growth and Visibility"
                 className="w-full h-full object-cover"
               />
