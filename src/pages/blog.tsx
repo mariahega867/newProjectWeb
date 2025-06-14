@@ -15,6 +15,15 @@ const categories = [
 
 const blogPosts = [
   {
+    title: "Transform Your Small Business with Business Process Automation Tools",
+    excerpt: "Transform your small business with business process automation tools. Learn how to save time, reduce errors, cut costs, and streamline workflows for growth!",
+    date: "June 13th 2025, 11:47:19 pm",
+    readTime: "7 mins",
+    category: "Process Automation",
+    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixid=M3w3NjIzNDN8MHwxfHNlYXJjaHwyfHxQcm9jZXNzJTIwQXV0b21hdGlvbnxlbnwwfHx8fDE3NDk4ODc0MTh8MA&ixlib=rb-4.1.0",
+    link: "/blog/business-process-automation-tools"
+  },
+  {
     title: "AI Examples for Small Businesses: Practical Applications to Boost Efficiency and Growth",
     excerpt: "Discover how small businesses use AI to automate tasks, improve customer service, optimize operations, and boost growth with practical tools and real-world examples.",
     date: "June 13th 2025, 11:47:19 pm",
