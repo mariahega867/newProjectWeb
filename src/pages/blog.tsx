@@ -15,6 +15,15 @@ const categories = [
 
 const blogPosts = [
   {
+    title: "Enhancing Data Quality for AI Projects: A Comprehensive Guide for Small and Medium Businesses",
+    excerpt: "Enhance your AI outcomes with high-quality data! Discover practical steps for SMBs to improve data quality, governance, security, and preparation for machine learning.",
+    date: "June 13th 2025, 11:47:19 pm",
+    readTime: "7 mins",
+    category: "Data Governance & Quality",
+    image: "https://images.unsplash.com/photo-1488229297570-58520851e868?ixid=M3w3NjIzNDN8MHwxfHNlYXJjaHwyfHxEYXRhJTIwR292ZXJuYW5jZSUyMHxlbnwwfHx8fDE3NDk4OTA1Mjd8MA&ixlib=rb-4.1.0",
+    link: "/blog/enhancing-data-quality-ai-projects"
+  },
+  {
     title: "Data Infrastructure Consulting: How Small Businesses Can Build Smarter Systems for Growth",
     excerpt: "Unlock the potential of your small business with data infrastructure consulting. Discover how to build scalable systems, optimize data pipelines, and drive growth.",
     date: "June 13th 2025, 11:47:19 pm",
