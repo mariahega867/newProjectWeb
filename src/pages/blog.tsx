@@ -114,7 +114,6 @@ const blogPosts = [
     link: "/blog/ai-examples-small-businesses"
   },
   {
-    
     title: "AI Strategy for Small Businesses: A Complete Guide to Success",
     excerpt: "Discover how to develop and implement an effective AI strategy for your small business. Learn about practical solutions, quick wins, and expert guidance to stay competitive in today's market.",
     date: "March 20, 2024",
