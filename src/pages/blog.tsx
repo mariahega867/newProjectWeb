@@ -15,6 +15,15 @@ const categories = [
 
 const blogPosts = [
   {
+    title: "Machine Learning Consulting Services: Empowering Small Business Success",
+    excerpt: "Discover how machine learning consulting services empower small businesses with custom solutions, predictive analytics, and scalable ML development to drive growth and efficiency.",
+    date: "June 13th 2025, 11:47:19 pm",
+    readTime: "7 mins",
+    category: "Machine Learning Services",
+    image: "https://images.unsplash.com/photo-1610500796385-3ffc1ae2f046?ixid=M3w3NjIzNDN8MHwxfHNlYXJjaHwyfHxNYWNoaW5lJTIwTGVhcm5pbmclMjBTZXJ2aWNlc3xlbnwwfHx8fDE3NDk4ODgzMDV8MA&ixlib=rb-4.1.0",
+    link: "/blog/machine-learning-consulting-services-smbs"
+  },
+  {
     title: "Best AI Automation Software: Transform Your Business with Intelligent Automation",
     excerpt: "Discover the best AI automation software to streamline tasks, save costs, and boost productivity. Unlock new levels of efficiency for your business today!",
     date: "June 13th 2025, 11:47:19 pm",
