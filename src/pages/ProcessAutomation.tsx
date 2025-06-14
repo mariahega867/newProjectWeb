@@ -1,7 +1,7 @@
 import React from 'react';
 import { Calendar, Clock, Tag, ArrowLeft } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import { blogPostContent } from './business-process-automation';
+import { blogPostContent } from './_business-process-automation-tools';
 
 export function BlogPostBusinessProcessAutomation() {
   return (

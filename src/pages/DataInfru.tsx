@@ -1,7 +1,7 @@
 import React from 'react';
 import { Calendar, Clock, Tag, ArrowLeft } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import { blogPostContent } from './data-infrastructure';
+import { blogPostContent } from './_data-infrastructure-consulting-smbs';
 
 export function BlogPostDataInfrastructure() {
   return (
