@@ -38,7 +38,7 @@ export function BlogPostBISMB() {
                     </div>
                     <div className="flex items-center">
                       <Clock className="w-4 h-4 mr-2" />
-                      <span>10 min read</span>
+                      <span>7 mins</span>
                     </div>
                     <div className="flex items-center">
                       <Tag className="w-4 h-4 mr-2" />
