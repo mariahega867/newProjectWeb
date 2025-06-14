@@ -6,9 +6,8 @@ import { Home } from './pages/home';
 import { News } from './pages/news';
 import { Careers } from './pages/careers';
 import { Blog } from './pages/blog';
-import { blogPostContent } from './pages/ai-strategy';
 import { BlogPostAIStrategy } from './pages/blogpost-ai-strategy';
-import { AI Examples for Small Businesses: Practical Applications to Boost Efficiency and Growth } from './pages/ai-examples-small-businesses';
+import { BlogPostAIExamplesSmallBusiness } from './pages/ ai_examplessmallbusinesses.tsx';
 
 function App() {
   return (
@@ -21,7 +20,7 @@ function App() {
             <Route path="/news" element={<News />} />
             <Route path="/careers" element={<Careers />} />
             <Route path="/blog" element={<Blog />} />
-            <Route path="/blog/ai-examples-small-businesses" element={<AI Examples for Small Businesses: Practical Applications to Boost Efficiency and Growth />} />
+            <Route path="/blog/_ai-examples-small-businesses" element={<BlogPostAIExamplesSmallBusiness />} />
             <Route path="/blog/ai-strategy" element={<BlogPostAIStrategy />} />
             <Route path="/blog/implementing-ai-solutions" element={<BlogPostAIStrategy />} />
           </Routes>
