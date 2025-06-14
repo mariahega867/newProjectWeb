@@ -8,7 +8,7 @@ import { Careers } from './pages/careers';
 import { Blog } from './pages/blog';
 import { blogPostContent } from './pages/ai-strategy';
 import { BlogPostAIStrategy } from './pages/blogpost-ai-strategy';
-
+import { AI Examples for Small Businesses: Practical Applications to Boost Efficiency and Growth } from './pages/ai-examples-small-businesses';
 
 function App() {
   return (
@@ -21,6 +21,7 @@ function App() {
             <Route path="/news" element={<News />} />
             <Route path="/careers" element={<Careers />} />
             <Route path="/blog" element={<Blog />} />
+            <Route path="/blog/ai-examples-small-businesses" element={<AI Examples for Small Businesses: Practical Applications to Boost Efficiency and Growth />} />
             <Route path="/blog/ai-strategy" element={<BlogPostAIStrategy />} />
             <Route path="/blog/implementing-ai-solutions" element={<BlogPostAIStrategy />} />
           </Routes>
