@@ -15,6 +15,15 @@ const categories = [
 
 const blogPosts = [
   {
+    title: "Using Data for Business Decisions: Building a Data-Driven Business with Predictive Insights and AI",
+    excerpt: "Learn how to use data for business decisions with predictive insights, AI tools, and KPIs. Boost efficiency, reduce risks, and drive growth today!",
+    date: "June 13th 2025, 11:47:19 pm",
+    readTime: "7 mins",
+    category: "Data-Driven Decision Making",
+    image: "https://images.unsplash.com/photo-1542744173-05336fcc7ad4?ixid=M3w3NjIzNDN8MHwxfHNlYXJjaHwyfHxEYXRhLURyaXZlbiUyMERlY2lzaW9uJTIwTWFraW5nfGVufDB8fHx8MTc0OTg4OTkwN3ww&ixlib=rb-4.1.0",
+    link: "/blog/using-data-for-business-decisions"
+  },
+  {
     title: "Unlocking the Power of BI Solutions for Small Businesses: A Guide to Growth and Data-Driven Decision Making",
     excerpt: "Discover how BI solutions for small businesses empower owners with real-time insights, AI dashboards, and analytics tools to drive growth, streamline operations, and outpace competitors.",
     date: "June 13th 2025, 11:47:19 pm",
