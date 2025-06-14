@@ -15,6 +15,15 @@ const categories = [
 
 const blogPosts = [
   {
+    title: "Best AI Automation Software: Transform Your Business with Intelligent Automation",
+    excerpt: "Discover the best AI automation software to streamline tasks, save costs, and boost productivity. Unlock new levels of efficiency for your business today!",
+    date: "June 13th 2025, 11:47:19 pm",
+    readTime: "7 mins",
+    category: "AI Automation Tools & ROI",
+    image: "https://images.unsplash.com/photo-1606676539940-12768ce0e762?ixid=M3w3NjIzNDN8MHwxfHNlYXJjaHwyfHxBSSUyMEF1dG9tYXRpb24lMjBUb29scyUyMHxlbnwwfHx8fDE3NDk4ODc3MDl8MA&ixlib=rb-4.1.0",
+    link: "/blog/best-ai-automation-software-guide"
+  },
+  {
     title: "Transform Your Small Business with Business Process Automation Tools",
     excerpt: "Transform your small business with business process automation tools. Learn how to save time, reduce errors, cut costs, and streamline workflows for growth!",
     date: "June 13th 2025, 11:47:19 pm",
