@@ -7,10 +7,10 @@ import { News } from './pages/news';
 import { Careers } from './pages/careers';
 import { Blog } from './pages/blog';
 import { BlogPostAIStrategy } from './pages/blogpost-ai-strategy';
-import { BlogPostAIExamplesSmallBusiness } from './pages/SmallBuinessEx';
+import { BlogPostAIExamplesSmallBusiness } from './pages/SmallBusinessEx';
 import { BlogPostMarketingToolsSmallBusiness } from './pages/AIMarketing';
 import { BlogPostAISEOForSmallBusiness } from './pages/AIseo';
-import { BlogPostBestAIAutomationSoftware } from './pages/AutomationGuide';
+import { BlogPostAIAutomationSoftware } from './pages/AutomationGuide';
 import { BlogPostDataInfrastructure } from './pages/DataInfru';
 import { BlogPostEnhancingDataQuality } from './pages/DataQuality';
 import { BlogPostMachineLearningConsulting } from './pages/MLServices';
@@ -34,7 +34,7 @@ function App() {
             <Route path="/blog/ai-marketing-tools-small-business" element={<BlogPostMarketingToolsSmallBusiness />} />
             <Route path="/blog/ai-seo-services-small-business" element={<BlogPostAISEOForSmallBusiness />} />
             <Route path="/blog/ai-strategy" element={<BlogPostAIStrategy />} />
-            <Route path="/blog/best-ai-automation-software-guide" element={<BlogPostBestAIAutomationSoftware />} />
+            <Route path="/blog/best-ai-automation-software-guide" element={<BlogPostAIAutomationSoftware />} />
             <Route path="/blog/bi-solutions-small-businesses-growth" element={<BlogPostBISolutions />} />
             <Route path="/blog/business-process-automation-tools" element={<BlogPostBusinessProcessAutomation />} />
             <Route path="/blog/customer-segmentation-machine-learning" element={<BlogPostCustomerSegmentation />} />
