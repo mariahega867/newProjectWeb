@@ -10,7 +10,7 @@ export function BlogPostBusinessProcessAutomation() {
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url('https://imagedelivery.net/SZohZ5hDHQrPE1IYbmlzaA/5dba2dcd-6bde-43c7-387d-cb44e197e500/public')`,
+            backgroundImage: `url('https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixid=M3w3NjIzNDN8MHwxfHNlYXJjaHwyfHxQcm9jZXNzJTIwQXV0b21hdGlvbnxlbnwwfHx8fDE3NDk4ODc0MTh8MA&ixlib=rb-4.1.0')`,
             backgroundPosition: 'center',
             backgroundSize: 'cover'
           }}
@@ -27,7 +27,7 @@ export function BlogPostBusinessProcessAutomation() {
           <article className="bg-white rounded-lg shadow-xl overflow-hidden">
             <div className="relative h-96">
               <img
-                src="https://imagedelivery.net/SZohZ5hDHQrPE1IYbmlzaA/5dba2dcd-6bde-43c7-387d-cb44e197e500/public"
+                src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixid=M3w3NjIzNDN8MHwxfHNlYXJjaHwyfHxQcm9jZXNzJTIwQXV0b21hdGlvbnxlbnwwfHx8fDE3NDk4ODc0MTh8MA&ixlib=rb-4.1.0"
                 alt="Business Process Automation Tools for Small Businesses: The Essential 2024 Guide"
                 className="w-full h-full object-cover"
               />
