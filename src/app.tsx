@@ -11,6 +11,7 @@ import { BlogPostAIStrategy } from './pages/blogpost-ai-strategy';
 import { BlogPostAIExamplesSmallBusiness } from './pages/ ai_examplessmallbusinesses.tsx';
 import { Machine Learning Consulting Services: Empowering Small Business Success } from './pages/machine-learning-consulting-services-smbs';
 import { Transform Your Small Business with Business Process Automation Tools } from './pages/business-process-automation-tools';
+import { Unlocking Business Growth with Customer Segmentation Using Machine Learning } from './pages/customer-segmentation-machine-learning';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
             <Route path="/blog/ai-strategy" element={<BlogPostAIStrategy />} />
             <Route path="/blog/best-ai-automation-software-guide" element={< Best AI Automation Software: Transform Your Business with Intelligent Automation/>} />
             <Route path="/blog/business-process-automation-tools" element={< Transform Your Small Business with Business Process Automation Tools/>} />
+            <Route path="/blog/customer-segmentation-machine-learning" element={< Unlocking Business Growth with Customer Segmentation Using Machine Learning/>} />
             <Route path="/blog/machine-learning-consulting-services-smbs" element={< Machine Learning Consulting Services: Empowering Small Business Success/>} />
           </Routes>
         </ErrorBoundary>
