@@ -12,12 +12,12 @@ import { BlogPostMarketingToolsSmallBusiness } from './pages/AIMarketing';
 import { BlogPostAISEOForSmallBusiness } from './pages/AIseo';
 import { BlogPostAIAutomationSoftware } from './pages/AutomationGuide';
 import { BlogPostDataInfrastructure } from './pages/DataInfru';
-import { BlogPostEnhancingDataQuality } from './pages/DataQuality';
-import { BlogPostMachineLearningConsulting } from './pages/MLServices';
+import { BlogPostDataQualitySMB } from './pages/DataQuality';
+import { BlogPostMLConsulting } from './pages/MLServices';
 import { BlogPostBusinessProcessAutomation } from './pages/ProcessAutomation';
-import { BlogPostCustomerSegmentation } from './pages/MLCustomerSuccess';
-import { BlogPostBISolutions } from './pages/BusinessGrowth';
-import { BlogPostUsingData } from './pages/DataDecisions';
+import { BlogPostMLBusinessGrowth } from './pages/MLCustomerSuccess';
+import { BlogPostBISMB } from './pages/BusinessGrowth';
+import { BlogPostDataDrivenDecisions } from './pages/DataDecisions';
 
 function App() {
   return (
@@ -35,13 +35,13 @@ function App() {
             <Route path="/blog/ai-seo-services-small-business" element={<BlogPostAISEOForSmallBusiness />} />
             <Route path="/blog/ai-strategy" element={<BlogPostAIStrategy />} />
             <Route path="/blog/best-ai-automation-software-guide" element={<BlogPostAIAutomationSoftware />} />
-            <Route path="/blog/bi-solutions-small-businesses-growth" element={<BlogPostBISolutions />} />
+            <Route path="/blog/bi-solutions-small-businesses-growth" element={<BlogPostBISMB />} />
             <Route path="/blog/business-process-automation-tools" element={<BlogPostBusinessProcessAutomation />} />
-            <Route path="/blog/customer-segmentation-machine-learning" element={<BlogPostCustomerSegmentation />} />
+            <Route path="/blog/customer-segmentation-machine-learning" element={<BlogPostMLBusinessGrowth />} />
             <Route path="/blog/data-infrastructure-consulting-smbs" element={<BlogPostDataInfrastructure />} />
-            <Route path="/blog/enhancing-data-quality-ai-projects" element={<BlogPostEnhancingDataQuality />} />
-            <Route path="/blog/machine-learning-consulting-services-smbs" element={<BlogPostMachineLearningConsulting />} />
-            <Route path="/blog/using-data-for-business-decisions" element={<BlogPostUsingData />} />
+            <Route path="/blog/enhancing-data-quality-ai-projects" element={<BlogPostDataQualitySMB />} />
+            <Route path="/blog/machine-learning-consulting-services-smbs" element={<BlogPostMLConsulting />} />
+            <Route path="/blog/using-data-for-business-decisions" element={<BlogPostDataDrivenDecisions />} />
           </Routes>
         </ErrorBoundary>
       </div>
