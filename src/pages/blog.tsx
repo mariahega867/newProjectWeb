@@ -15,6 +15,15 @@ const categories = [
 
 const blogPosts = [
   {
+    title: "AI Marketing Tools for Small Business: Unlock Growth with Advanced Technology",
+    excerpt: "Discover the best AI marketing tools for small businesses to automate tasks, boost efficiency, personalize campaigns, and drive growth. Unlock affordable, advanced solutions today!",
+    date: "June 13th 2025, 11:47:19 pm",
+    readTime: "7 mins",
+    category: "AI in Marketing Automation",
+    image: "https://images.unsplash.com/photo-1533750349088-cd871a92f312?ixid=M3w3NjIzNDN8MHwxfHNlYXJjaHwyfHxBSSUyMGluJTIwTWFya2V0aW5nJTIwQXV0b21hdGlvbnxlbnwwfHx8fDE3NDk4ODkzMDl8MA&ixlib=rb-4.1.0",
+    link: "/blog/ai-marketing-tools-small-business"
+  },
+  {
     title: "AI SEO Services for Small Business: Boost Online Visibility with Advanced Tools",
     excerpt: "Revolutionize your online presence! Discover how AI SEO services for small businesses improve rankings, optimize content, and drive traffic with cost-effective, data-driven tools.",
     date: "June 13th 2025, 11:47:19 pm",
