@@ -1,7 +1,7 @@
 import React from 'react';
 import { Calendar, Clock, ArrowRight, Search, Tag } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import { blogPostContent } from './third';
+
 
 const categories = [
   "Artificial Intelligence",
@@ -15,87 +15,7 @@ const categories = [
 
 const blogPosts = [
   {
-    title: "Machine Learning Consulting Services for Small Businesses: A Complete Guide",
-    excerpt: "Unlock the potential of machine learning for your small business with expert consulting services. Discover tailored solutions, predictive analytics, and a competitive edge in this complete guide.",
-    date: "June 10th 2025, 10:33:24 am",
-    readTime: "6 mins",
-    category: "Machine Learning Services",
-    image: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NjIzNDN8MHwxfHNlYXJjaHwxfHxtYWNoaW5lJTIwbGVhcm5pbmclMjBjb25zdWx0aW5nJTIwc2VydmljZXMlMkMlMjBzbWFsbCUyMGJ1c2luZXNzJTIwbWFjaGluZSUyMGxlYXJuaW5nJTIwc29sdXRpb25zJTJDJTIwTUwlMjBkZXZlbG9wbWVudCUyMGZvciUyMFNNQiUyQyUyMGN1c3RvbSUyMG1hY2hpbmUlMjBsZWFybmluZyUyMG1vZGVscyUyQyUyMHByZWRpY3RpdmUlMjBhbmFseXRpY3MlMjBmb3IlMjBzbWFsbCUyMGJ1c2luZXNzfGVufDB8fHx8MTc0OTU3NjQ0OHww&ixlib=rb-4.1.0&q=80&w=1080",
-    link: "/blog/machine-learning-consulting-services-guide"
-  },
-  {
-    title: "Machine Learning Consulting Services for Small Businesses: A Complete Guide",
-    excerpt: "This is a new blog post generated automatically.",
-    date: "June 10, 2025",
-    readTime: "6 min read",
-    category: "Machine Learning Services",
-    image: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NjIzNDN8MHwxfHNlYXJjaHwxfHxtYWNoaW5lJTIwbGVhcm5pbmclMjBjb25zdWx0aW5nJTIwc2VydmljZXMlMkMlMjBzbWFsbCUyMGJ1c2luZXNzJTIwbWFjaGluZSUyMGxlYXJuaW5nJTIwbW9kZWxzJTJDJTIwcHJlZGljdGl2ZSUyMGFuYWx5dGljcyUyMGZvciUyMHNtYWxsJTIwYnVzaW5lc3N8ZW58MHx8fHwxNzQ5NTc2NDQ4fDA&ixlib=rb-4.1.0&q=80&w=1080",
-    link: "/blog/machine-learning-consulting-services-guide"
-  },
-  {
-    title: "Business Process Automation Tools: A Guide for Small Businesses",
-    excerpt: "In today's fast-changing world, small businesses need to find ways to work smarter, not harder. Business process automation tools are key to this shift. These innovative software solutions help automate small business operations, making workflows faster, cheaper, and more accurate.",
-    date: "March 25, 2024",
-    readTime: "12 min read",
-    category: "Business Automation",
-    image: "https://images.unsplash.com/photo-1518186285589-2f7649de83e0",
-    link: "/blog/business-automation"
-  },
-  {
-    title: "AI's Wild Ride: Top Insights from March 6, 2025",
-    excerpt: "Buckle up, tech fans! The AI world is buzzing louder than ever, and we've scooped up the hottest insights from the last 24 hours. Smarter bots, wild tools, and game-changing ideas—here's your daily dose of AI magic, served fresh and feisty.",
-    date: "March 07, 2025",
-    readTime: "3 min read",
-    category: "Technology Trends",
-    image: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485",
-    link: "/blog/ai-wild-ride"
-  },
-  {
-    title: "AI Unleashed: Revolution, Responsibility, and the Road Ahead",
-    excerpt: "What if machines could not only think but also feel the weight of their decisions? Today, artificial intelligence isn't just crunching numbers—it's diagnosing diseases, shaping economies, and even sparking ethical debates that keep us up at night.",
-    date: "March 05, 2025",
-    readTime: "15 min read",
-    category: "Artificial Intelligence",
-    image: "https://imagedelivery.net/SZohZ5hDHQrPE1IYbmlzaA/dd1f5ea3-c3de-4dbd-b66b-1d63f739ac00/public",
-    link: "/blog/ai-unleashed"
-  },
-  {
-    title: "The Future of AI in Business: 2024 Trends and Beyond",
-    excerpt: "Explore the latest AI trends shaping the business landscape in 2024, from generative AI to autonomous systems. Learn how businesses are leveraging these technologies to gain competitive advantages.",
-    date: "March 15, 2024",
-    readTime: "5 min read",
-    category: "Technology Trends",
-    image: "https://imagedelivery.net/SZohZ5hDHQrPE1IYbmlzaA/afad7856-3392-4988-082a-f7162214bc00/public",
-    link: "#"
-  },
-  {
-    title: "Implementing AI Solutions: A Practical Guide for Businesses",
-    excerpt: "Learn the step-by-step process of implementing AI solutions in your business, from assessment to deployment. Real-world examples and best practices included.",
-    date: "March 10, 2024",
-    readTime: "8 min read",
-    category: "Case Studies",
-    image: "https://imagedelivery.net/SZohZ5hDHQrPE1IYbmlzaA/85302a84-632a-4892-214a-8123d1cee900/public",
-    link: "#"
-  },
-  {
-    title: "AI Security: Protecting Your Business in the Digital Age",
-    excerpt: "Discover essential strategies for maintaining security and privacy while leveraging AI technologies. Expert insights on risk management and compliance.",
-    date: "March 5, 2024",
-    readTime: "6 min read",
-    category: "Business Strategy",
-    image: "https://imagedelivery.net/SZohZ5hDHQrPE1IYbmlzaA/22246d44-b563-48fa-f323-c18b79a04a00/public",
-    link: "#"
-  },
-  {
-    title: "Machine Learning Models: A Beginner's Guide",
-    excerpt: "Understanding different types of machine learning models and their applications in business. From supervised to unsupervised learning.",
-    date: "March 1, 2024",
-    readTime: "7 min read",
-    category: "Machine Learning",
-    image: "https://imagedelivery.net/SZohZ5hDHQrPE1IYbmlzaA/dd1f5ea3-c3de-4dbd-b66b-1d63f739ac00/public",
-    link: "#"
-  },
-  {
+    
     title: "AI Strategy for Small Businesses: A Complete Guide to Success",
     excerpt: "Discover how to develop and implement an effective AI strategy for your small business. Learn about practical solutions, quick wins, and expert guidance to stay competitive in today's market.",
     date: "March 20, 2024",
