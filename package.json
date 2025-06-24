@@ -13,7 +13,7 @@
     "verify-config": "node verify-config.js"
   },
   "dependencies": {
-    "@supabase/supabase-js": "^2.39.3",
+    "@supabase/supabase-js": "^2.50.1",
     "dotenv": "^16.4.5",
     "lucide-react": "^0.344.0",
     "react": "^18.2.0",

@@ -18,6 +18,7 @@ import { BlogPostBusinessProcessAutomation } from './pages/ProcessAutomation';
 import { BlogPostMLBusinessGrowth } from './pages/MLCustomerSuccess';
 import { BlogPostBISMB } from './pages/BusinessGrowth';
 import { BlogPostDataDrivenDecisions } from './pages/DataDecisions';
+import Preview from './components/Preview';
 
 function App() {
   return (
@@ -42,6 +43,7 @@ function App() {
             <Route path="/blog/enhancing-data-quality-ai-projects" element={<BlogPostDataQualitySMB />} />
             <Route path="/blog/machine-learning-consulting-services-smbs" element={<BlogPostMLConsulting />} />
             <Route path="/blog/using-data-for-business-decisions" element={<BlogPostDataDrivenDecisions />} />
+            <Route path="/preview/:id" element={<Preview />} />
           </Routes>
         </ErrorBoundary>
       </div>
